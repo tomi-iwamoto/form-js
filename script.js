@@ -23,7 +23,10 @@ sendButton.addEventListener('click', function() {
 //This event handler will clear the message written inside the input field and the message that appears on the bottom of the screen when the clear button is clicked
 clearButton.addEventListener('click', function() {
 
+    //This line tells the function that when the click event happens, make the content of the input field (with id of "text") empty
     text.value = ' ';
+
+    //When click event happens, make the content of the p element ("message" variable) empty 
     message.innerHTML = ' ';
 
 })
